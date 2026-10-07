@@ -51,7 +51,7 @@ Ensure you have Python 3.10+ installed.
 
 ### 2. Clone and Install Dependencies
 ```bash
-git clone https://github.com/<your-username>/Hybrid-Rag.git
+git clone https://github.com/Asadnaeem23/Hybrid-Rag.git
 cd Hybrid-Rag
 
 # Create a virtual environment
@@ -59,7 +59,7 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install requirements
-pip install -r pyproject.toml # or pip install -e .
+pip install -e .
 ```
 
 ### 3. Environment Variables
